@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <div>
       <header>
-        <h1>PhysioApp</h1>
         <Navbar />
       </header>
       <main>
