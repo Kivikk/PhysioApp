@@ -1,6 +1,11 @@
 import React from "react";
-import WorkoutCard from "../Layout/WorkoutCard";
+import WorkoutCardPreview from "../Layout/WorkoutCardPreview";
 import Mainlayout from "../Layout/Mainlayout";
+
+import allExercisesImage from "../assets/images/NackenRolle.png";
+import backExercisesImage from "../assets/images/RumpfDrehungBoden.png";
+import shoulderExercisesImage from "../assets/images/BandSchulterInnenDreher.png";
+import hipExercisesImage from "../assets/images/HueftHebung.png";
 
 const Home = () => {
   return (
@@ -8,25 +13,21 @@ const Home = () => {
       <div className="flex flex-row ">
         <h2 className="text-stone-600 text-xs p-4">Start </h2>
         <div className="flex flex-row flex-wrap place-content-center m-8">
-          <WorkoutCard
-            image="https://via.placeholder.com/150"
+          <WorkoutCardPreview
+            image={allExercisesImage}
             title="All Exercises "
-            description="This is a description for Workout 1."
           />
-          <WorkoutCard
-            image="https://via.placeholder.com/150"
+          <WorkoutCardPreview
+            image={backExercisesImage}
             title="Back Exercises"
-            description="This is a description for Workout 2."
           />
-          <WorkoutCard
-            image="https://via.placeholder.com/150"
+          <WorkoutCardPreview
+            image={shoulderExercisesImage}
             title="Shoulder Exercises"
-            description="This is a description for Workout 2."
           />
-          <WorkoutCard
-            image="https://via.placeholder.com/150"
+          <WorkoutCardPreview
+            image={hipExercisesImage}
             title="Hip Exercises"
-            description="This is a description for Workout 2."
           />
         </div>
       </div>
