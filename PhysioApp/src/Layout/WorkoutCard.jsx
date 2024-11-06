@@ -1,6 +1,10 @@
 import React from 'react';
 
-const WorkoutCard = ({ image, title, description }) => {
+const WorkoutCard = ({
+  image = "https://via.placeholder.com/150",
+  title = "Placeholder Title",
+  description = "This is a placeholder description."
+}) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
       <img className="w-full" src={image} alt={title} />
@@ -11,5 +15,7 @@ const WorkoutCard = ({ image, title, description }) => {
     </div>
   );
 };
+
+
 
 export default WorkoutCard;
