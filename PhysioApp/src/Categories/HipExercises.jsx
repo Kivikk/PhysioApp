@@ -1,10 +1,10 @@
-import React from "react";
-import WorkoutCard from "../Layout/WorkoutCard";
-import Mainlayout from "../Layout/Mainlayout";
-import exercises from "../data/exercises.json";
+import React from 'react';
+import exercises from '../data/exercises.json';
+import WorkoutCard from '../Layout/WorkoutCard';
+import Mainlayout from '../Layout/Mainlayout';
 import { images as imageImports } from "../utils/imageImports.js";
 
-const Workout = () => {
+const HipExercises = () => {
   const getImage = (imageName) => {
     if (!imageImports[imageName]) {
       console.warn(`Image not found: ${imageName}`);
@@ -13,14 +13,16 @@ const Workout = () => {
     return imageImports[imageName];
   };
 
+  const hipExercises = exercises.filter(exercise => exercise.category === 'Hip');
+
   return (
     <Mainlayout>
       <div>
         <h2 className="text-stone-600 text-xs p-4">
-          Start | All Exercises
+          Start | Hip Exercises
         </h2>
         <div className="flex flex-wrap justify-center">
-          {exercises.map((exercise, index) => (
+          {hipExercises.map((exercise, index) => (
             <WorkoutCard
               key={index}
               image={getImage(exercise.image)}
@@ -38,4 +40,4 @@ const Workout = () => {
   );
 };
 
-export default Workout;
+export default HipExercises;
