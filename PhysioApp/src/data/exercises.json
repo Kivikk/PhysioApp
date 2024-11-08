@@ -35,7 +35,7 @@
     "image": "DehnungStandbeins.png"
   },
   {
-    "title": "Vorbeuge mit gestrecktem Rücken (Standing Forward Bend)",
+    "title": "Vorbeuge mit gestrecktem Rücken",
     "category": "Hip",
     "startingPosition": [
       "Stellen Sie die Füße hüftbreit auf, der Körper ist aufrecht, die Arme hängen locker seitlich herunter."
@@ -52,7 +52,7 @@
     "image": "Vorbeuger.png"
   },
   {
-    "title": "Rumpfdrehung an der Wand mit Knieunterstützung",
+    "title": "Rumpfdrehung an der Wand",
     "category": "Back",
     "startingPosition": [
       "Knien Sie sich seitlich zur Wand, sodass das Bein, das der Wand zugewandt ist, mit dem Knie auf dem Boden ruht.",
@@ -110,7 +110,7 @@
     "image": "RumpfDrehungBoden.png"
   },
   {
-    "title": "Seitliche Hüfthebung (Side Plank Hip Lift)",
+    "title": "Seitliche Hüfthebung",
     "category": "Back",
     "startingPosition": [
       "Legen Sie sich seitlich auf eine Matte, der Oberkörper ist angehoben und stützt sich auf den unten liegenden Ellbogen, der direkt unter der Schulter platziert ist.",
@@ -133,7 +133,7 @@
     "image": "HueftHebung.png"
   },
   {
-    "title": "Seitliche Beinhebung in Seitenlage (Side-Lying Leg Lift)",
+    "title": "Seitliche Beinhebung in Seitenlage",
     "category": "Hip",
     "start_position": [
       "Legen Sie sich seitlich auf eine Matte.",
@@ -156,7 +156,7 @@
     "image": "Beinheben.png"
   },
   {
-    "title": "Diagonale Bauchmuskulatur (Twists in Rückenlage)",
+    "title": "Diagonale Bauchmuskulatur",
     "category": "Back",
     "start_position": [
       "Legen Sie sich flach mit dem Rücken auf eine Matte, beide Arme seitlich ausgestreckt.",
@@ -222,7 +222,7 @@
     "image": "Stabrotation.png"
   },
   {
-    "title": "Oberschenkelmuskel (Quadrizeps) dehnen",
+    "title": "Oberschenkelmuskel dehnen",
     "category": "Hip",
     "start_position": [
       "Stellen Sie sich aufrecht hin, Füße hüftbreit auseinander.",
@@ -362,7 +362,7 @@
     ]
   },
   {
-    "title": "Zweiarmiges Rudern (Standing Row) mit Theraband",
+    "title": "Zweiarmiges Rudern mit Theraband",
     "category": "Back",
     "startingPosition": [
       "Stellen Sie sich hüftbreit auf die Mitte des Therabands.",

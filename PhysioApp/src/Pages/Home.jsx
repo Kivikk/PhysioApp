@@ -10,18 +10,22 @@ import hipExercisesImage from "../assets/images/HueftHebung.png";
 
 const Home = () => {
   const navigate = useNavigate();
-  const handleCardClick = (route) => {
-    navigate(route);
-  }
+
+  const handleStartClick = () => {
+    navigate('/');
+  };
+
   return (
     <Mainlayout>
-      <div className="flex flex-row justify-center">
-        <h2 className="text-stone-600 text-xs p-4">Start </h2>
-        <div className="flex flex-row flex-wrap place-content-center m-8">
+      <div className="">
+        <h2 className="text-stone-600 text-xs p-4 cursor-pointer">
+          Start
+        </h2>
+        <div className="flex flex-row flex-wrap place-content-center">
           <WorkoutCardPreview
             image={allExercisesImage}
             title="All Exercises"
-            route='/workout'
+            route='/all-exercises'
           />
           <WorkoutCardPreview
             image={backExercisesImage}

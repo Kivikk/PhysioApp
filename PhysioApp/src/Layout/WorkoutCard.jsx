@@ -10,7 +10,7 @@ const WorkoutCard = ({
   note = "N/A"
 }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg m-8">
       <img className="w-full" src={image} alt={title} />
       <div className="px-6 py-4">
         <h2 className="font-bold text-xl mb-2">{title}</h2>

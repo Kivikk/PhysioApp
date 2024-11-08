@@ -3,8 +3,16 @@ import exercises from '../data/exercises.json';
 import WorkoutCard from '../Layout/WorkoutCard';
 import Mainlayout from '../Layout/Mainlayout';
 import { images as imageImports } from "../utils/imageImports.js";
+import { useNavigate } from 'react-router-dom';
 
 const HipExercises = () => {
+  const navigate = useNavigate();
+
+  const handleStartClick = () => {
+    navigate('/');
+  };
+
+
   const getImage = (imageName) => {
     if (!imageImports[imageName]) {
       console.warn(`Image not found: ${imageName}`);
@@ -18,9 +26,14 @@ const HipExercises = () => {
   return (
     <Mainlayout>
       <div>
-        <h2 className="text-stone-600 text-xs p-4">
-          Start | Hip Exercises
-        </h2>
+        <div className='flex'>
+          <h2 className="text-stone-600 text-xs p-4 cursor-pointer" onClick={handleStartClick}>
+            Start |
+          </h2>
+          <h2 className="text-stone-600 text-xs p-4" >
+            Hip Exercises
+          </h2>
+        </div>
         <div className="flex flex-wrap justify-center">
           {hipExercises.map((exercise, index) => (
             <WorkoutCard
