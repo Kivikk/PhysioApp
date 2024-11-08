@@ -7,10 +7,10 @@ import {
 
 import Header from './Components/Header.jsx';
 import Home from './Pages/Home.jsx';
-import AllExercises from './Categories/AllExercises.jsx';
-import BackExercises from './Categories/BackExercises.jsx';
-import ShoulderExercises from './Categories/ShoulderExercises.jsx';
-import HipExercises from './Categories/HipExercises.jsx';
+import AllExercises from './Pages/Categories/AllExercises.jsx';
+import BackExercises from './Pages/Categories/BackExercises.jsx';
+import ShoulderExercises from './Pages/Categories/ShoulderExercises.jsx';
+import HipExercises from './Pages/Categories/HipExercises.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
